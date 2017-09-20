@@ -1,0 +1,93 @@
+body {
+   
+background-color:black;
+}
+
+.navbar-brand {
+   
+   padding:0px;
+}
+
+navbar-brand >img {
+   
+   height:100%;
+   padding:15px;
+   width:auto;
+}
+
+.dropdown-menu > li {
+   text-align:center;
+}
+
+.btn-group-justified > .btn {
+   font-weight:bolder;
+   font-size:18px;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("androidbean.png");
+
+    /* Set a specific height */
+    height: 200px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.panel panel-primary {
+   background:auto;
+   padding:0px;
+   margin:0px;
+}
+.panel-heading {
+   
+   font-weight:bolder;
+   font-size:18px;
+   text-align:center;
+   text-align:justify-content;
+}
+
+.panel-body {
+   font-size:16px;
+   text-align:center;
+}
+
+.greeting {
+   
+   text-align:center;
+   color:white;
+   font-size:large;
+}
+
+h2 {
+   text-align:center;
+   font-weight:bold;
+   color:blue;
+}
+
+h3 {
+text-align:center;
+   font-size:18px;
+   color:blue;
+}
+
+#AndroidModal {
+   background-image:url("androidwallpaper.png");
+}
+
+.modal-header {
+   background-color:none;
+   height:130px;
+}
+.modal-body {
+   background-color:none;
+}
+
+.modal-footer > button {
+   color:blue;
+   
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>teamHancock</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" text="text/css" href="masterstylesheet.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="fade.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--NAVBAR START-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand"><img src="logo.png"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>
+Home</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-book"></span>
+Our Story</a></li>
+        <li><a href="portfolio.html"><span class="glyphicon glyphicon-paperclip"></span>
+Portfolio</a></li> 
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="portfolio.html"><span class="glyphicon glyphicon-console"></span>
+  Development Solutions
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#"><span class="glyphicon glyphicon-phone"></span>
+Android Development</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-thumbs-up"></span>
+Website Development</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-blackboard"></span>
+Visual Basic Development</a></li>
+        </ul>
+      </li>
+      </ul>
+     
+    </div>
+  </div>
+</nav> <!--NAVBAR END-->
+<br/>
+<br/>
+<div class="header"> <!--IMAGE HEADER-->
+<img src="header.png" class="img-responsive" alt="header">
+</div>
+
+<!--BUTTONS-->
+
+<div class="container-fluid">
+<div class="btn-group btn-group-justified">
+  <a button type="button" class="btn btn-primary" data-toggle="modal" data-target="#AndroidModal">Android</a>
+  <a button type="button" class="btn btn-primary">Websites</a>
+  <a button type="button" class="btn btn-primary">Visual Basic</a>
+</div>
+
+<div id="AndroidModal" class="modal fade" role="dialog">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+<div class="modal-title"><img src="androidheader.png" class="center-block img-responsive" alt="boxing-life">
+</div>
+</div>
+<div class="modal-body">
+<h3>We currently have a range of applications on the GooglePlay Store! </br>
+We manage the analytics and updates for these applications. <br>
+We will be including facebook and twitter integration in our next release!</h3>
+<img src="boxinglife.png" class="img-responsive" alt="boxing-life">
+<img src="googleplay.png" class="center-block img-rounded" alt="googleplaylogo" width="300" height="125">
+</div>
+
+<div class="modal-footer">
+<button type="button" class="btn btn-Primary" data-dismiss="modal">Close</button></div>
+</div>
+</div>
+</div>
+
+
+<div class="greeting">
+<script src="greeting.js"></script>
+</div>
+
+</head>
+<body>
+
+<div class="parallax">
+</div> <!--parallax-->
+
+ <div class="panel panel-primary">
+      <div class="panel-heading">Mission Statement</div>
+      <div class="panel-body"> At teamHancock development studios we are commited to let you drive and develop your product.
+      Our aim is to assist you in turning your dream into a digital reality. <br/>
+      We promise a profesional and relaxed approach so we can understand your requirements to 
+      ensure the best possible solution. Lastly we are focused on responsive designs that will ensure the consumer
+      recieves the best possible customer journey.
+       </div>
+    </div>
+ 
+    <div class="parallax"></div><!--parallax-->
+    
+     <div class="panel panel-primary">
+      <div class="panel-heading">Contact Us</div>
+      <div class="panel-body"> 
+      <img src="fbooklogo.png" class="img-rounded" width="75" height="75" alt="facebooklogo">
+      <img src="twitterlogo.png" class="img-rounded" width="75" height="75" alt="twitterlogo">
+      <img src="instagramlogo.png" class="img-rounded" width="75" height="75" alt="instagramlogo">
+      </div>
+    </div>
+
+</body>
+</html>
